@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #183b56;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
+.navigasi {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.navigasi button {
+  border-radius: 4px;
+  color: rgb(0, 47, 255);
+  border: 1px solid rgb(0, 47, 255);
+  background-color: white;
+  width: 100px;
+  height: 30px;
+}
+.konten {
+  border-radius: 10px;
+  height: 50vh;
+  background-color: rgba(0, 153, 255, 0.2);
+  display: flex;
+  margin: 10px 100px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.categori {
+  display: grid;
+  grid-template-columns: 110px 110px 110px 110px 110px 110px 110px 100px;
+  gap: 5px;
+  background-color: white;
+  padding: 20px 100px;
+}
+.item {
+  background-color: white;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+.garis {
+  display: flex;
+  width: 60px;
+  height: 70px;
+  border: 1px dashed grey;
+}
+.garis img {
+  margin: auto;
+}
+.isi {
+  margin-top: 20px;
+  line-height: 20px;
+  text-align: start;
+}
+
+.laptop {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.window {
+  padding: 20px;
+}
+.window img {
+  width: 200px;
+}
+
+.servis {
+  display: grid;
+  gap: 10px 10px;
+  grid-template-columns: 200px 200px;
+
+  padding: 10px;
+}
+
+.layanan {
+  padding: 20px;
+  border: 2px solid whitesmoke;
+  text-align: center;
+}
+
+.most {
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: auto;
+
+  padding: 10px 100px;
+}
+
+.sold {
+  background-color: whitesmoke;
+
+  border: 1px solid whitesmoke;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.gambar img {
+  width: 100px;
+}
+.gambar {
+  display: flex;
+  justify-content: space-around;
+}
+.deks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 15px;
+}
+.read {
+  border: 2px solid blue;
+  background-color: blue;
+  color: aliceblue;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 0 20px;
+}
+.buy {
+  border: 2px solid blue;
+  color: blue;
+  border-radius: 50px;
+  width: 80px;
+  height: 50px;
+}
+
+.product {
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: auto auto auto auto;
+  color: #183b56;
+  padding: 40px 100px;
+}
+
+.compare {
+  line-height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tulisan {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+
+  margin: 0 100px;
+}
+.kata {
+  line-height: 30px;
+  color: #183b56;
+}
+.kata h5 {
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 600px) {
+  .konten {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: auto;
+    color: #183b56;
+    padding: 40px 100px;
+  }
+  .categori {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 110px 110px;
+    gap: 5px;
+    background-color: white;
+    padding: 20px 100px;
+  }
+  .laptop {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+}
